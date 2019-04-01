@@ -5,8 +5,8 @@ const sum = require("./sketch");
 });
  */
 
-test("adds 5 + 5 to equal 10 ", sumTest);
+test("adds 1 + 1 to equal 2 ", sumTest);
 
 function sumTest() {
-  expect(sum(5, 7)).toBe(10);
+  expect(sum(1, 2)).toBe(2);
 }
